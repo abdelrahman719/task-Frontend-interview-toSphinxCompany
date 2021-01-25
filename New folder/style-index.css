@@ -1,0 +1,310 @@
+
+
+/*---------------- start of loading page------------------------*/
+@keyframes loader {
+    0%, 10%, 100% {
+      width: 40px;
+      height: 40px;
+    }
+    65% {
+      width: 75px;
+      height: 75px;
+    }
+  }
+  @keyframes loaderBlock {
+    0%, 30% {
+      transform: rotate(0);
+    }
+    55% {
+      background-color: #0fa0c5;
+    }
+    100% {
+      transform: rotate(90deg);
+    }
+  }
+  @keyframes loaderBlockInverse {
+    0%, 20% {
+      transform: rotate(0);
+    }
+    55% {
+      background-color: #0fa0c5;
+    }
+    100% {
+      transform: rotate(-90deg);
+    }
+  }
+  .loader-cover
+  {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+   background-color: white;
+   z-index: 9999999;
+  }
+  .loader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 80px;
+    height: 80px;
+    transform: translate(-50%, -50%) rotate(45deg) translate3d(0, 0, 0);
+    animation: loader 1.2s infinite ease-in-out;
+ 
+   
+  }
+  .loader span {
+    position: absolute;
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-color: #0fa0c5;
+    animation: loaderBlock 1.2s infinite ease-in-out both;
+  }
+  .loader span:nth-child(1) {
+    top: 0;
+    left: 0;
+  }
+  .loader span:nth-child(2) {
+    top: 0;
+    right: 0;
+    animation: loaderBlockInverse 1.2s infinite ease-in-out both;
+  }
+  .loader span:nth-child(3) {
+    bottom: 0;
+    left: 0;
+    animation: loaderBlockInverse 1.2s infinite ease-in-out both;
+  }
+  .loader span:nth-child(4) {
+    bottom: 0;
+    right: 0;
+  }
+
+/*---------------- end of loading page------------------------*/
+
+body
+{
+font-family: 'Comic Neue', cursive;
+line-height: 1.42857143;
+box-sizing: border-box;
+cursor: default;
+overflow: hidden;
+
+}
+.col-xs-12
+{
+  width: 100%  !important;
+}
+.col-xs-3
+{
+  width: 33.33333% !important;
+}
+
+.task-content
+{
+  width: 60%;
+  height: 100%;
+  margin: auto;
+}
+
+/* start header style*/
+.header-icon
+{
+  width: 3vw;
+  margin: .5vw;
+  cursor: pointer;
+}
+h1
+{
+  font-size: 2vw;
+  margin-top: .5vw;
+}
+/* end of header style*/
+
+/* start of the body  */
+
+.back-blue
+{
+  background-color: #0fa0c5;
+  position: relative;
+  height: 70vh;
+  background-size: cover;
+
+  
+}
+.bg-white
+{
+  background-color: white;
+  position: absolute;
+  width: 97%;
+  height: 74vh;
+  left: 1.5%;
+  top:-2vh ;
+  border: 4px solid #f5821f;
+  border-radius:20px;
+  z-index:1;
+  background-size: cover;
+ 
+}
+
+.the-img
+{
+  position: absolute;
+ bottom: 0;
+}
+/* start of words section*/
+.words-section span
+{
+font-size: 2vw;
+font-weight: 900;
+text-align: center;
+border: 2px solid  #0fa0c5;
+border-radius:10px ;
+margin-left: 1vw;
+margin-bottom: 1vh;
+cursor: pointer;
+}
+
+/* start of answers section*/
+.h-67
+{
+  height: 67%;
+}
+.answers-section
+{
+ height: 40%;
+ position: absolute;
+ bottom: 0;
+ z-index: 2;
+ 
+}
+.pos-3
+{
+  position: relative;
+  top: 50%;
+}
+.answers-bar
+{
+ margin-left: 1.5vw;
+ height: 8vh;
+}
+
+.answers-cont
+{
+
+  position: relative;
+  height: 8vh;
+  width: 100%;
+
+  font-size: 2vw;
+ 
+}
+
+.right-icon
+{
+  width: 2.5vw;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  display: none;
+ 
+}
+.wrong-icon
+{
+  width: 2.5vw;
+  position: absolute;
+  right: 10px;
+  top:10px;
+  display: none;
+
+}
+
+/* ----- start footer*/
+footer
+{
+  background-color: #deecf6;
+  height: 15vh;
+}
+.footer-reply
+{
+  width: 4vw;
+  cursor: pointer;
+  
+}
+.footer-show
+{
+  width: 5vw;
+  cursor: pointer;
+
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
